@@ -1,0 +1,249 @@
+(footprint "D_SMB"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Diode SMB (DO-214AA), Alternate KiCad Library")
+	(tags "Diode SMB (DO-214AA)")
+	(property "Reference" "REF**"
+		(at 0 -3.508 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "7ef47cdc-25b6-4c6e-b595-c997844cafb4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MURS160"
+		(at 0 3.1 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fce6f574-939e-4051-89f1-06e6d26ce0f0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.vishay.com/docs/88688/murs140.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "18571a8e-acb6-4848-8bf6-4cd0a6be3eef")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "SMB Diode, Ultrafast Rectifier, 600V, 1A, 50ns, Alternate KiCad Library"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "db31bd95-4981-4222-b021-7d27aa917dd4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.7 -2.3)
+		(end -3.7 2.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "38e53f94-d907-4d71-a983-67cffb7e014b")
+	)
+	(fp_line
+		(start -3.7 2.3)
+		(end 3.7 2.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f0976b67-e277-4505-830a-d9a5b9b2ac67")
+	)
+	(fp_line
+		(start 3.7 -2.3)
+		(end -3.7 -2.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f0eb84c9-39af-4562-84c9-e5ff46d2fd90")
+	)
+	(fp_line
+		(start 3.7 2.3)
+		(end 3.7 -2.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2e129b4a-ae71-45ab-b278-864d32741105")
+	)
+	(fp_poly
+		(pts
+			(xy -1.2 -2.3) (xy -2.3 -2.3) (xy -2.3 -2.7) (xy -1.2 -2.7)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "ecf826e0-6e02-4076-a3f0-1f2d2e94f3fe")
+	)
+	(fp_poly
+		(pts
+			(xy -1.2 2.7) (xy -2.3 2.7) (xy -2.3 2.3) (xy -1.2 2.3)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "529fd242-d03c-4368-8c31-ecf191155cc0")
+	)
+	(fp_line
+		(start -3.65 -2.25)
+		(end 3.65 -2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "627c2574-f6c0-4329-9a60-365b5f0095e8")
+	)
+	(fp_line
+		(start -3.65 2.25)
+		(end -3.65 -2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d691dcfa-813d-4022-ab9d-ef1886bb0d3f")
+	)
+	(fp_line
+		(start 3.65 -2.25)
+		(end 3.65 2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "21c97ffb-a788-481f-84b8-59b073df51dd")
+	)
+	(fp_line
+		(start 3.65 2.25)
+		(end -3.65 2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ed509421-fbaf-41c9-abfb-3cff6235a4c1")
+	)
+	(fp_line
+		(start -2.3 2)
+		(end -2.3 -2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0a1ad7ce-af41-4f5c-a7b0-12ceeac4d1f9")
+	)
+	(fp_line
+		(start 2.3 -2)
+		(end -2.3 -2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "edbb119b-a4b0-4ebd-a845-db31d90f3737")
+	)
+	(fp_line
+		(start 2.3 -2)
+		(end 2.3 2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "08e9265e-b998-4715-a356-7e572d511530")
+	)
+	(fp_line
+		(start 2.3 2)
+		(end -2.3 2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "59a87d22-1a2a-4e08-8da5-4e8cf731792b")
+	)
+	(fp_rect
+		(start -1.8 -2)
+		(end -1.2 2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "2c4a004e-5fcf-44b4-b141-20b5d87eba2d")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.55 0 0)
+		(layer "F.Fab")
+		(uuid "2c0fa30f-178a-4ccd-a3a9-3b6899e53ea9")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -2.15 0)
+		(size 2.5 2.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1086956522)
+		(uuid "8ee8d868-d8d2-4aa6-97fd-e11c9b94dd8c")
+	)
+	(pad "2" smd roundrect
+		(at 2.15 0)
+		(size 2.5 2.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1086956522)
+		(uuid "c74741e2-a3c4-4c52-9bf3-34d828d793de")
+	)
+	(embedded_fonts no)
+	(model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SMB.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

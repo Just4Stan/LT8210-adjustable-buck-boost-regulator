@@ -192,7 +192,7 @@
 	(net 49 "/MODE2")
 	(net 50 "/FB1")
 	(net 51 "/FB2")
-	(footprint "PCM_Resistor_SMD_AKL:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+	(footprint "buckFootprints:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "02e6a5c6-7b08-41d9-8d48-dfd0830c24aa")
 		(at 88.9552 92.4562 -90)
@@ -412,7 +412,7 @@
 			)
 		)
 	)
-	(footprint "Button_Switch_SMD:6DIPCFS"
+	(footprint "buckFootprints:6DIPCFS"
 		(layer "F.Cu")
 		(uuid "04a52ad1-5c4d-489b-8e03-fb0545e9db1e")
 		(at 98.68 82.966)
@@ -617,7 +617,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "PCM_Resistor_SMD_AKL:R_2512_6332Metric"
+	(footprint "buckFootprints:R_2512_6332Metric"
 		(layer "F.Cu")
 		(uuid "0bfc884b-f6c5-429f-af80-1acea4eddfeb")
 		(at 80.25 43)
@@ -838,7 +838,7 @@
 			)
 		)
 	)
-	(footprint "Connector_Pin:Pin_D1.3mm_L11.0mm"
+	(footprint "buckFootprints:Pin_D1.3mm_L11.0mm"
 		(layer "F.Cu")
 		(uuid "0ce13afd-a6f6-4bf8-8b79-7fbd392dab62")
 		(at 36.5 62)
@@ -977,7 +977,7 @@
 			)
 		)
 	)
-	(footprint "PCM_Capacitor_THT_AKL:CP_Radial_D16.0mm_P7.50mm"
+	(footprint "buckFootprints:CP_Radial_D16.0mm_P7.50mm"
 		(layer "F.Cu")
 		(uuid "1466fead-ecb7-4e6f-8b26-176660b77073")
 		(at 49 52 90)
@@ -3903,7 +3903,7 @@
 			)
 		)
 	)
-	(footprint "Button_Switch_SMD:SW6_76SD01ST_GHL"
+	(footprint "buckFootprints:SW6_76SD01ST_GHL"
 		(layer "F.Cu")
 		(uuid "1aac631f-0056-42bd-b853-53f8530a9bbe")
 		(at 94.1552 86.2562 180)
@@ -4539,7 +4539,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Connector_Pin:Pin_D1.1mm_L10.2mm_W3.5mm_Flat"
+	(footprint "buckFootprints:Pin_D1.1mm_L10.2mm_W3.5mm_Flat"
 		(layer "F.Cu")
 		(uuid "1bd7b3ac-254e-4674-becc-f21b1dd485b2")
 		(at 119 62 180)
@@ -4754,7 +4754,7 @@
 			)
 		)
 	)
-	(footprint "PCM_Resistor_SMD_AKL:R_2512_6332Metric"
+	(footprint "buckFootprints:R_2512_6332Metric"
 		(layer "F.Cu")
 		(uuid "1ff376a3-872f-498a-88d7-7d708951c1ab")
 		(at 88.25 56.75)
@@ -4975,7 +4975,7 @@
 			)
 		)
 	)
-	(footprint "PCM_Resistor_SMD_AKL:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+	(footprint "buckFootprints:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "20a58681-6a09-4f43-b362-7eba990a79b5")
 		(at 47.4 92.8)
@@ -5195,7 +5195,7 @@
 			)
 		)
 	)
-	(footprint "PCM_Package_TO_SOT_THT_AKL:TO-220-3_Vertical_GDS"
+	(footprint "buckFootprints:TO-220-3_Vertical_GDS"
 		(layer "F.Cu")
 		(uuid "236e9517-81de-4ef3-865e-1a7dfbb63205")
 		(at 88 48.54 90)
@@ -5525,7 +5525,7 @@
 			)
 		)
 	)
-	(footprint "Connector_Pin:Pin_D1.3mm_L11.0mm"
+	(footprint "buckFootprints:Pin_D1.3mm_L11.0mm"
 		(layer "F.Cu")
 		(uuid "25f087cd-ef65-477b-a505-355e5a1b3a90")
 		(at 110.3 62 180)
@@ -5664,7 +5664,7 @@
 			)
 		)
 	)
-	(footprint "PCM_Capacitor_SMD_AKL:C_0805_2012Metric"
+	(footprint "buckFootprints:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "2b083762-2cc3-439d-861c-07a67c558e60")
 		(at 100 58.95 -90)
@@ -5887,7 +5887,7 @@
 			)
 		)
 	)
-	(footprint "PCM_Package_TO_SOT_THT_AKL:TO-220-3_Vertical_GDS"
+	(footprint "buckFootprints:TO-220-3_Vertical_GDS"
 		(layer "F.Cu")
 		(uuid "2e829486-c7ca-4532-ae05-04dae387256d")
 		(at 62 67.83 90)
@@ -6217,7 +6217,7 @@
 			)
 		)
 	)
-	(footprint "Button_Switch_SMD:2DIPCFS"
+	(footprint "buckFootprints:2DIPCFS"
 		(layer "F.Cu")
 		(uuid "30a33b89-a05b-4a4d-b11d-3d4cc45c71e4")
 		(at 52.256 87.111)
@@ -6342,7 +6342,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Connector_Pin:Pin_D1.1mm_L10.2mm_W3.5mm_Flat"
+	(footprint "buckFootprints:Pin_D1.1mm_L10.2mm_W3.5mm_Flat"
 		(layer "F.Cu")
 		(uuid "35c06bf8-d0f3-43f9-b962-28c429acbd43")
 		(at 28.5 55)
@@ -6557,7 +6557,7 @@
 			)
 		)
 	)
-	(footprint "PCM_Package_TO_SOT_THT_AKL:TO-220-3_Vertical_GDS"
+	(footprint "buckFootprints:TO-220-3_Vertical_GDS"
 		(layer "F.Cu")
 		(uuid "39996e7e-ce6f-4439-8ef8-3dd3122a9a68")
 		(at 61.42 44)
@@ -6887,7 +6887,7 @@
 			)
 		)
 	)
-	(footprint "PCM_Capacitor_THT_AKL:CP_Radial_D10.0mm_P5.00mm"
+	(footprint "buckFootprints:CP_Radial_D10.0mm_P5.00mm"
 		(layer "F.Cu")
 		(uuid "47647a77-7b3b-4003-baec-f758704ae802")
 		(at 108.05 47.867677 90)
@@ -8963,7 +8963,7 @@
 			)
 		)
 	)
-	(footprint "Button_Switch_SMD:2DIPCFS"
+	(footprint "buckFootprints:2DIPCFS"
 		(layer "F.Cu")
 		(uuid "49380283-cdb5-4e64-b17e-34cd3cc41b25")
 		(at 58.96 87.111)
@@ -9088,7 +9088,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+	(footprint "buckFootprints:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "534d420a-fcd1-4b99-a226-d502b3add1a1")
 		(at 82.75 62.25 -90)
@@ -9288,7 +9288,7 @@
 			)
 		)
 	)
-	(footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+	(footprint "buckFootprints:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "5f760c9a-32f2-454a-8d61-22c675025b55")
 		(at 80.15 62.3125 -90)
@@ -9488,7 +9488,7 @@
 			)
 		)
 	)
-	(footprint "PCM_Diode_SMD_AKL:D_SMB"
+	(footprint "buckFootprints:D_SMB"
 		(layer "F.Cu")
 		(uuid "6af3f1bf-e6df-4017-8b54-9d32056fec14")
 		(at 75.8 69 90)
@@ -9746,7 +9746,7 @@
 			)
 		)
 	)
-	(footprint "PCM_Capacitor_THT_AKL:CP_Radial_D16.0mm_P7.50mm"
+	(footprint "buckFootprints:CP_Radial_D16.0mm_P7.50mm"
 		(layer "F.Cu")
 		(uuid "6d933e2b-d331-4cff-b432-668278711ef6")
 		(at 49 61.5 -90)
@@ -12672,7 +12672,7 @@
 			)
 		)
 	)
-	(footprint "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad"
+	(footprint "buckFootprints:MountingHole_3.2mm_M3_ISO14580_Pad"
 		(layer "F.Cu")
 		(uuid "71c48453-ba1a-491d-bad7-08a21fc71aaa")
 		(at 30 44.2)
@@ -12778,7 +12778,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "PCM_Capacitor_THT_AKL:CP_Radial_D10.0mm_P5.00mm"
+	(footprint "buckFootprints:CP_Radial_D10.0mm_P5.00mm"
 		(layer "F.Cu")
 		(uuid "7681efc9-e0ba-4159-8b90-acb0131ac298")
 		(at 96.5 47.867677 90)
@@ -14854,7 +14854,7 @@
 			)
 		)
 	)
-	(footprint "Connector_Pin:Pin_D1.3mm_L11.0mm"
+	(footprint "buckFootprints:Pin_D1.3mm_L11.0mm"
 		(layer "F.Cu")
 		(uuid "a210a8e5-f5fa-4e4c-a78c-250f4f84dcdf")
 		(at 36.5 55)
@@ -14993,7 +14993,7 @@
 			)
 		)
 	)
-	(footprint "PCM_Resistor_SMD_AKL:R_2512_6332Metric"
+	(footprint "buckFootprints:R_2512_6332Metric"
 		(layer "F.Cu")
 		(uuid "a485cb8c-4823-4d96-9498-f2e8ab32beed")
 		(at 73.4625 62.5)
@@ -15214,7 +15214,7 @@
 			)
 		)
 	)
-	(footprint "Connector_Pin:Pin_D1.3mm_L11.0mm"
+	(footprint "buckFootprints:Pin_D1.3mm_L11.0mm"
 		(layer "F.Cu")
 		(uuid "a64ce9ba-8c2f-499e-8d5e-57a093bdbfd4")
 		(at 110.3 55 180)
@@ -15353,7 +15353,7 @@
 			)
 		)
 	)
-	(footprint "PCM_Capacitor_SMD_AKL:C_0805_2012Metric"
+	(footprint "buckFootprints:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "a798082a-755b-4e8e-bad5-f999e51b2f9e")
 		(at 97.25 58.95 -90)
@@ -15576,7 +15576,7 @@
 			)
 		)
 	)
-	(footprint "Inductor_SMD_Wurth:IND_1210-WE-HCC_WRE"
+	(footprint "buckFootprints:IND_1210-WE-HCC_WRE"
 		(layer "F.Cu")
 		(uuid "acd21447-f19e-4d05-af27-fa80a60bd6a7")
 		(at 77.5 52.75 -90)
@@ -15920,7 +15920,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "PCM_Resistor_SMD_AKL:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+	(footprint "buckFootprints:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "b7214667-5b81-4adc-ae61-8484716eebe8")
 		(at 94.1552 92.4562 90)
@@ -16140,7 +16140,7 @@
 			)
 		)
 	)
-	(footprint "Converter_DCDC:05-08-1772_ADI-M"
+	(footprint "buckFootprints:05-08-1772_ADI-M"
 		(layer "F.Cu")
 		(uuid "bc168edb-cda9-479c-90f4-1ec0099c8dd7")
 		(at 73.300001 78.2702 90)
@@ -18414,7 +18414,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "PCM_Diode_SMD_AKL:D_SMB"
+	(footprint "buckFootprints:D_SMB"
 		(layer "F.Cu")
 		(uuid "bdd43443-dccc-4367-b43b-676c51713e29")
 		(at 82.2 67.5)
@@ -18672,7 +18672,7 @@
 			)
 		)
 	)
-	(footprint "PCM_Package_TO_SOT_THT_AKL:TO-220-3_Vertical_GDS"
+	(footprint "buckFootprints:TO-220-3_Vertical_GDS"
 		(layer "F.Cu")
 		(uuid "c28b7898-32fa-455e-9d4d-fb74dbef759c")
 		(at 65.5 49.92 -90)
@@ -19002,7 +19002,7 @@
 			)
 		)
 	)
-	(footprint "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad"
+	(footprint "buckFootprints:MountingHole_3.2mm_M3_ISO14580_Pad"
 		(layer "F.Cu")
 		(uuid "c4519704-7e99-4465-a8da-f9eb6fca99dd")
 		(at 118 44.2)
@@ -19108,7 +19108,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad"
+	(footprint "buckFootprints:MountingHole_3.2mm_M3_ISO14580_Pad"
 		(layer "F.Cu")
 		(uuid "c91af057-3c75-4049-8419-c1869b36f174")
 		(at 118 90.2)
@@ -19214,7 +19214,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_CBE"
+	(footprint "buckFootprints:TO-92_Inline_Wide_CBE"
 		(layer "F.Cu")
 		(uuid "d8c89e53-6209-4d26-b495-cb750fedb397")
 		(at 46.61 85.374 90)
@@ -19490,7 +19490,7 @@
 			)
 		)
 	)
-	(footprint "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad"
+	(footprint "buckFootprints:MountingHole_3.2mm_M3_ISO14580_Pad"
 		(layer "F.Cu")
 		(uuid "e4a34a15-81f9-48c6-bdb0-7793f73a53dd")
 		(at 30 90.2)
@@ -19596,7 +19596,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+	(footprint "buckFootprints:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "e585895d-5ba9-4fbb-a2a7-6169ae2c984d")
 		(at 62 57.08 -90)
@@ -19796,7 +19796,7 @@
 			)
 		)
 	)
-	(footprint "Connector_Pin:Pin_D1.1mm_L10.2mm_W3.5mm_Flat"
+	(footprint "buckFootprints:Pin_D1.1mm_L10.2mm_W3.5mm_Flat"
 		(layer "F.Cu")
 		(uuid "e5db972f-49ee-46c6-9fa0-f3c3c09f324d")
 		(at 28.5 62)
@@ -20011,7 +20011,7 @@
 			)
 		)
 	)
-	(footprint "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+	(footprint "buckFootprints:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "e7e251e4-6022-4de6-9875-a9fabba76000")
 		(at 58.5 57.08 -90)
@@ -20211,7 +20211,7 @@
 			)
 		)
 	)
-	(footprint "PCM_Package_TO_SOT_THT_AKL:TO-220-3_Vertical_GDS"
+	(footprint "buckFootprints:TO-220-3_Vertical_GDS"
 		(layer "F.Cu")
 		(uuid "e891fa9c-89ed-4416-bf52-1bff8cef473f")
 		(at 38.145 47.84 90)
@@ -20541,7 +20541,7 @@
 			)
 		)
 	)
-	(footprint "PCM_Resistor_SMD_AKL:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+	(footprint "buckFootprints:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "f3480912-571c-4f8b-b007-fb5b16036cbb")
 		(at 47.6 78.1 180)
@@ -20761,7 +20761,7 @@
 			)
 		)
 	)
-	(footprint "Connector_Pin:Pin_D1.1mm_L10.2mm_W3.5mm_Flat"
+	(footprint "buckFootprints:Pin_D1.1mm_L10.2mm_W3.5mm_Flat"
 		(layer "F.Cu")
 		(uuid "fa33a0dd-f5a0-4ae6-91c3-b602e7862a90")
 		(at 119 55 180)
@@ -20976,7 +20976,7 @@
 			)
 		)
 	)
-	(footprint "PCM_LED_THT_AKL_Double:LED_D3.0mm"
+	(footprint "buckFootprints:LED_D3.0mm"
 		(layer "F.Cu")
 		(uuid "fcbab38f-a5c2-4ea3-9436-57a39405e8b7")
 		(at 46.3 87.9 -90)
@@ -21353,7 +21353,7 @@
 			)
 		)
 	)
-	(footprint "PCM_Capacitor_SMD_AKL:C_0805_2012Metric"
+	(footprint "buckFootprints:C_0805_2012Metric"
 		(layer "B.Cu")
 		(uuid "0870ca97-09bc-4e26-a9aa-653dd133b050")
 		(at 81.700001 75.520199)
@@ -21581,7 +21581,7 @@
 			)
 		)
 	)
-	(footprint "PCM_Resistor_SMD_AKL:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+	(footprint "buckFootprints:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "B.Cu")
 		(uuid "0cad7c2b-60c0-48f1-a78c-bc76db4294e5")
 		(at 65.700001 86.8702 90)
@@ -21806,7 +21806,7 @@
 			)
 		)
 	)
-	(footprint "PCM_Capacitor_SMD_AKL:C_0805_2012Metric"
+	(footprint "buckFootprints:C_0805_2012Metric"
 		(layer "B.Cu")
 		(uuid "3539c2ac-4875-4f72-acdf-d714c800d80c")
 		(at 67.500001 71.4702)
@@ -22034,7 +22034,7 @@
 			)
 		)
 	)
-	(footprint "PCM_Resistor_SMD_AKL:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+	(footprint "buckFootprints:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "B.Cu")
 		(uuid "382780af-5194-4631-ba4a-d0c3f6c8fa80")
 		(at 85.8 76.1 90)
@@ -22259,7 +22259,7 @@
 			)
 		)
 	)
-	(footprint "PCM_Resistor_SMD_AKL:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+	(footprint "buckFootprints:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "B.Cu")
 		(uuid "4662a92c-259c-4a53-bdd8-604b7cb59837")
 		(at 59.026 79.673 90)
@@ -22484,7 +22484,7 @@
 			)
 		)
 	)
-	(footprint "PCM_Resistor_SMD_AKL:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+	(footprint "buckFootprints:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "B.Cu")
 		(uuid "4db0ecc0-c600-4178-90d6-11729c294c9a")
 		(at 66.700001 67.7702 90)
@@ -22709,7 +22709,7 @@
 			)
 		)
 	)
-	(footprint "PCM_Capacitor_SMD_AKL:C_0805_2012Metric"
+	(footprint "buckFootprints:C_0805_2012Metric"
 		(layer "B.Cu")
 		(uuid "5ba28bb3-1e7f-4dc5-a0f1-40ed9e88f53c")
 		(at 77.5 71.4702)
@@ -22937,7 +22937,7 @@
 			)
 		)
 	)
-	(footprint "PCM_Capacitor_SMD_AKL:C_0805_2012Metric"
+	(footprint "buckFootprints:C_0805_2012Metric"
 		(layer "B.Cu")
 		(uuid "5dbb6268-ab8a-4952-970a-10c8a994fcdd")
 		(at 83.150001 82.9 -90)
@@ -23165,7 +23165,7 @@
 			)
 		)
 	)
-	(footprint "PCM_Resistor_SMD_AKL:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+	(footprint "buckFootprints:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "B.Cu")
 		(uuid "64ff164c-42fb-4a97-8468-ea433393594b")
 		(at 108.9652 92.5 -90)
@@ -23390,7 +23390,7 @@
 			)
 		)
 	)
-	(footprint "PCM_Resistor_SMD_AKL:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+	(footprint "buckFootprints:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "B.Cu")
 		(uuid "65d1484f-4bcb-4b57-9273-b835ec1f68b2")
 		(at 82.1 86.9 90)
@@ -23615,7 +23615,7 @@
 			)
 		)
 	)
-	(footprint "PCM_Capacitor_SMD_AKL:C_0805_2012Metric"
+	(footprint "buckFootprints:C_0805_2012Metric"
 		(layer "B.Cu")
 		(uuid "65dadb52-30a8-4218-b703-bdd8db46ce36")
 		(at 74.800001 67.7702 90)
@@ -23843,7 +23843,7 @@
 			)
 		)
 	)
-	(footprint "PCM_Capacitor_SMD_AKL:C_0805_2012Metric"
+	(footprint "buckFootprints:C_0805_2012Metric"
 		(layer "B.Cu")
 		(uuid "6edef904-170d-4b2e-9b7f-da32bafa6e80")
 		(at 79.2 86.9 90)
@@ -24071,7 +24071,7 @@
 			)
 		)
 	)
-	(footprint "PCM_Resistor_SMD_AKL:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+	(footprint "buckFootprints:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "B.Cu")
 		(uuid "75af553b-e4a8-4cab-b123-69a461de84a4")
 		(at 98.5652 92.4562 -90)
@@ -24296,7 +24296,7 @@
 			)
 		)
 	)
-	(footprint "PCM_Capacitor_SMD_AKL:C_0805_2012Metric"
+	(footprint "buckFootprints:C_0805_2012Metric"
 		(layer "B.Cu")
 		(uuid "7805d066-51bf-4a31-b9db-3a42cd6afdb9")
 		(at 76.200001 86.8702 90)
@@ -24523,7 +24523,7 @@
 			)
 		)
 	)
-	(footprint "PCM_Resistor_SMD_AKL:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+	(footprint "buckFootprints:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "B.Cu")
 		(uuid "84eb137f-25e3-4219-b4cc-d5f58be8318e")
 		(at 54.826 79.673 -90)
@@ -24748,7 +24748,7 @@
 			)
 		)
 	)
-	(footprint "PCM_Resistor_SMD_AKL:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+	(footprint "buckFootprints:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "B.Cu")
 		(uuid "91fe7c16-a65a-44c8-8a0c-c44e7123b871")
 		(at 101.1652 92.4562 -90)
@@ -24973,7 +24973,7 @@
 			)
 		)
 	)
-	(footprint "PCM_Resistor_SMD_AKL:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+	(footprint "buckFootprints:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "B.Cu")
 		(uuid "9d163512-c1f9-4207-94a9-364c90b25af8")
 		(at 73.500001 91.3702 90)
@@ -25198,7 +25198,7 @@
 			)
 		)
 	)
-	(footprint "PCM_Resistor_SMD_AKL:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+	(footprint "buckFootprints:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "B.Cu")
 		(uuid "aa710c32-1492-4930-a7e0-5ed21700a078")
 		(at 61.526 79.673 90)
@@ -25423,7 +25423,7 @@
 			)
 		)
 	)
-	(footprint "PCM_Resistor_SMD_AKL:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+	(footprint "buckFootprints:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "B.Cu")
 		(uuid "ba23a660-9888-45e3-84ee-2c885e912d3a")
 		(at 83.2 71.9 -90)
@@ -25648,7 +25648,7 @@
 			)
 		)
 	)
-	(footprint "PCM_Capacitor_SMD_AKL:C_0805_2012Metric"
+	(footprint "buckFootprints:C_0805_2012Metric"
 		(layer "B.Cu")
 		(uuid "d0cf8d1c-1658-4717-a013-89c01a74dbad")
 		(at 81.750001 78.5702)
@@ -25876,7 +25876,7 @@
 			)
 		)
 	)
-	(footprint "PCM_Capacitor_SMD_AKL:C_0805_2012Metric"
+	(footprint "buckFootprints:C_0805_2012Metric"
 		(layer "B.Cu")
 		(uuid "d823b4e0-6180-459a-a02d-a5880c0eadda")
 		(at 73.500001 86.8702 90)
@@ -26104,7 +26104,7 @@
 			)
 		)
 	)
-	(footprint "PCM_Capacitor_SMD_AKL:C_0805_2012Metric"
+	(footprint "buckFootprints:C_0805_2012Metric"
 		(layer "B.Cu")
 		(uuid "d92d00e3-6279-49c2-9bbf-18fa8809fb54")
 		(at 66.679801 75.970199 -90)
@@ -26332,7 +26332,7 @@
 			)
 		)
 	)
-	(footprint "PCM_Resistor_SMD_AKL:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+	(footprint "buckFootprints:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "B.Cu")
 		(uuid "d9bea648-1525-4f99-a2ba-db5e407352b0")
 		(at 103.7652 92.4562 -90)
@@ -26557,7 +26557,7 @@
 			)
 		)
 	)
-	(footprint "PCM_Resistor_SMD_AKL:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+	(footprint "buckFootprints:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "B.Cu")
 		(uuid "dbf73135-89ce-4362-8589-12336d40a98a")
 		(at 111.5652 92.4562 -90)
@@ -26782,7 +26782,7 @@
 			)
 		)
 	)
-	(footprint "PCM_Resistor_SMD_AKL:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+	(footprint "buckFootprints:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "B.Cu")
 		(uuid "e0f9a084-9211-4794-aec5-2b6e1e54b6da")
 		(at 80.7 71.9 -90)
@@ -27007,7 +27007,7 @@
 			)
 		)
 	)
-	(footprint "PCM_Capacitor_SMD_AKL:C_0805_2012Metric"
+	(footprint "buckFootprints:C_0805_2012Metric"
 		(layer "B.Cu")
 		(uuid "e5351d42-a4de-4cb4-b421-f0119a0ae5af")
 		(at 79.2 91.4 -90)
@@ -27235,7 +27235,7 @@
 			)
 		)
 	)
-	(footprint "PCM_Capacitor_SMD_AKL:C_0805_2012Metric"
+	(footprint "buckFootprints:C_0805_2012Metric"
 		(layer "B.Cu")
 		(uuid "e9a640df-1d77-4240-a792-0b93c54c7739")
 		(at 70.850001 86.8702 -90)
@@ -27463,7 +27463,7 @@
 			)
 		)
 	)
-	(footprint "PCM_Resistor_SMD_AKL:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+	(footprint "buckFootprints:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "B.Cu")
 		(uuid "eda2c977-2ee8-410b-b477-0d1247b71ef9")
 		(at 70.700001 68.5702 180)
@@ -27688,7 +27688,7 @@
 			)
 		)
 	)
-	(footprint "PCM_Capacitor_SMD_AKL:C_0805_2012Metric"
+	(footprint "buckFootprints:C_0805_2012Metric"
 		(layer "B.Cu")
 		(uuid "f1bd058c-4d5b-49e8-bb1e-73678e83b49d")
 		(at 72.100001 71.4702 180)
@@ -27916,7 +27916,7 @@
 			)
 		)
 	)
-	(footprint "PCM_Resistor_SMD_AKL:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+	(footprint "buckFootprints:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "B.Cu")
 		(uuid "f1c26ea5-4e53-45ce-b5b3-ff48db011214")
 		(at 68.250001 86.8702 90)
@@ -28141,7 +28141,7 @@
 			)
 		)
 	)
-	(footprint "PCM_Resistor_SMD_AKL:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+	(footprint "buckFootprints:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "B.Cu")
 		(uuid "f8438fe4-9e64-446a-98ed-aba3e675731e")
 		(at 80.450001 82.9 -90)
@@ -28366,7 +28366,7 @@
 			)
 		)
 	)
-	(footprint "PCM_Capacitor_SMD_AKL:C_0805_2012Metric"
+	(footprint "buckFootprints:C_0805_2012Metric"
 		(layer "B.Cu")
 		(uuid "fec5ce9b-8ae8-4ae4-b7ed-eb222e6ded61")
 		(at 76.200001 91.3202 90)
@@ -28594,7 +28594,7 @@
 			)
 		)
 	)
-	(footprint "PCM_Resistor_SMD_AKL:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+	(footprint "buckFootprints:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "B.Cu")
 		(uuid "ffad5abe-aa25-4de5-8f54-7464a5f47c39")
 		(at 106.3652 92.4562 -90)
@@ -30079,7 +30079,7 @@
 		(render_cache "-" 0
 			(polygon
 				(pts
-					(xy 115.483706 62.363056) (xy 113.537579 62.363056) (xy 113.537579 61.722163) (xy 115.483706 61.722163)
+					(xy 115.483705 62.363056) (xy 113.537578 62.363056) (xy 113.537578 61.722163) (xy 115.483705 61.722163)
 				)
 			)
 		)
@@ -30121,9 +30121,9 @@
 		(render_cache "+" 0
 			(polygon
 				(pts
-					(xy 114.725576 54.800322) (xy 115.47589 54.800322) (xy 115.47589 55.316162) (xy 114.725576 55.316162)
-					(xy 114.725576 56.066476) (xy 114.209735 56.066476) (xy 114.209735 55.316162) (xy 113.475053 55.316162)
-					(xy 113.475053 54.800322) (xy 114.209735 54.800322) (xy 114.209735 54.050007) (xy 114.725576 54.050007)
+					(xy 114.725575 54.800321) (xy 115.475889 54.800321) (xy 115.475889 55.316161) (xy 114.725575 55.316161)
+					(xy 114.725575 56.066475) (xy 114.209734 56.066475) (xy 114.209734 55.316161) (xy 113.475052 55.316161)
+					(xy 113.475052 54.800321) (xy 114.209734 54.800321) (xy 114.209734 54.050006) (xy 114.725575 54.050006)
 				)
 			)
 		)
