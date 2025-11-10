@@ -250,7 +250,6 @@
 						(size 1.27 1.27)
 						(italic yes)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" "LT8210EFE"
@@ -1419,6 +1418,113 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3538,7 +3644,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PCM_Transistor_MOSFET_AKL:IPB048N15N5LF"
+		(symbol "PCM_Transistor_MOSFET_AKL:IRFB4615"
 			(pin_names
 				(hide yes)
 			)
@@ -3554,7 +3660,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "IPB048N15N5LF"
+			(property "Value" "IRFB4615"
 				(at 5.08 -1.27 0)
 				(effects
 					(font
@@ -3563,7 +3669,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "PCM_Package_TO_SOT_SMD_AKL:TO-263-2"
+			(property "Footprint" "PCM_Package_TO_SOT_THT_AKL:TO-220-3_Vertical_GDS"
 				(at 5.08 2.54 0)
 				(effects
 					(font
@@ -3572,7 +3678,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.tme.eu/Document/fc50ee780d85e9ab87e5420e12636046/IPB048N15N5LF.pdf"
+			(property "Datasheet" "https://www.tme.eu/Document/816e21d4079055e94d34a380b7a962ec/irfb4615pbf.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3581,7 +3687,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "TO-263 N-MOSFET enchancement mode transistor, 150V, 120A, 313W, Alternate KiCAD Library"
+			(property "Description" "TO-220 N-MOSFET enchancement mode transistor, 150V, 35A, 144W, Alternate KiCAD Library"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3590,7 +3696,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "enchancement mosfet nmosfet n-mosfet nmos n-mos emos emosfet IPB048N15N5LF"
+			(property "ki_keywords" "enchancement mosfet nmosfet n-mosfet nmos n-mos emos emosfet IRFB4615"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3599,7 +3705,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "IPB048N15N5LF_0_1"
+			(symbol "IRFB4615_0_1"
 				(polyline
 					(pts
 						(xy 0.254 1.905) (xy 0.254 -1.905)
@@ -3743,7 +3849,7 @@
 					)
 				)
 			)
-			(symbol "IPB048N15N5LF_1_1"
+			(symbol "IRFB4615_1_1"
 				(pin input line
 					(at -3.81 -1.27 0)
 					(length 2.54)
@@ -6024,6 +6130,12 @@
 		(uuid "e97700a8-938d-4a01-a4eb-16875efad857")
 	)
 	(junction
+		(at 190.5 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "065916d6-7037-41ab-915e-2b19f6ea3f58")
+	)
+	(junction
 		(at 262.89 195.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6150,22 +6262,10 @@
 		(uuid "488b0ab8-0cdd-47c9-98e8-602cda2476e8")
 	)
 	(junction
-		(at 190.5 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "49d597b6-b36c-48e6-9c66-863b63521126")
-	)
-	(junction
 		(at 270.51 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4eaea10f-bb95-4285-8bec-4108e4c883bb")
-	)
-	(junction
-		(at 209.55 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "521640f0-6ae9-43ed-abc9-6ea500cda6f8")
 	)
 	(junction
 		(at 243.84 29.21)
@@ -6174,7 +6274,7 @@
 		(uuid "597919ad-3e2b-452e-99f6-f59935c93ef2")
 	)
 	(junction
-		(at 149.86 33.02)
+		(at 160.02 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5fb50ba9-b154-4307-8859-1756e67d47af")
@@ -6214,12 +6314,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "70a7394e-03b6-4340-94ce-49dd638c9122")
-	)
-	(junction
-		(at 209.55 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "76652f59-9517-4d56-9cf6-8f8e1226abde")
 	)
 	(junction
 		(at 245.11 228.6)
@@ -6318,6 +6412,12 @@
 		(uuid "a6e084da-80d6-479d-b7f2-ad7e1d7c8e72")
 	)
 	(junction
+		(at 160.02 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a8729216-d1a8-4470-9871-ed076ca98f9d")
+	)
+	(junction
 		(at 293.37 228.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6378,10 +6478,22 @@
 		(uuid "d06a6b14-2a95-4b60-80c2-a77368ed8ace")
 	)
 	(junction
+		(at 185.42 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d6fee5c3-f82b-47a4-ac85-d8bcb20490af")
+	)
+	(junction
 		(at 322.58 186.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e214b8ba-81f8-46d5-b79c-63aca9eb0bd6")
+	)
+	(junction
+		(at 161.29 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e23e3e7f-dbdd-4bed-9964-c6d5bc2eac91")
 	)
 	(junction
 		(at 142.24 130.81)
@@ -6406,6 +6518,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eeb30ff4-e8da-4b42-9e58-de4ec07083a8")
+	)
+	(junction
+		(at 158.75 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f1793148-643e-4a9d-a43f-10209dac6833")
 	)
 	(junction
 		(at 281.94 106.68)
@@ -6442,6 +6560,14 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fca82ca2-2617-4545-8511-020cdb87e9d2")
+	)
+	(no_connect
+		(at 196.85 30.48)
+		(uuid "470a5b70-c0f6-498f-997a-7a4026f49540")
+	)
+	(no_connect
+		(at 196.85 45.72)
+		(uuid "8587ee52-5054-4a72-86d4-8590bb7f88ab")
 	)
 	(wire
 		(pts
@@ -6515,33 +6641,13 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 195.58) (xy 317.5 199.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "06340baf-b30f-465a-b745-760f98629457")
-	)
-	(wire
-		(pts
-			(xy 148.59 33.02) (xy 149.86 33.02)
+			(xy 158.75 33.02) (xy 160.02 33.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0a8eee6e-0bbc-4d9e-9e1e-1c925b7c3856")
-	)
-	(wire
-		(pts
-			(xy 270.51 88.9) (xy 294.64 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ac17501-5eec-4534-8c07-0fd0b2ee0180")
 	)
 	(wire
 		(pts
@@ -6585,6 +6691,16 @@
 	)
 	(wire
 		(pts
+			(xy 276.86 88.9) (xy 270.51 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10148826-4394-4a76-9984-b0ce6aecc4a0")
+	)
+	(wire
+		(pts
 			(xy 151.13 127) (xy 160.02 127)
 		)
 		(stroke
@@ -6605,16 +6721,6 @@
 	)
 	(wire
 		(pts
-			(xy 307.34 195.58) (xy 313.69 195.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "120f913f-fe0f-4089-94ba-62c75c7dac6a")
-	)
-	(wire
-		(pts
 			(xy 279.4 43.18) (xy 279.4 58.42)
 		)
 		(stroke
@@ -6625,6 +6731,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 53.34) (xy 209.55 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "131efc00-dd62-4503-863c-f3b4d75dadb1")
+	)
+	(wire
+		(pts
 			(xy 109.22 88.9) (xy 102.87 88.9)
 		)
 		(stroke
@@ -6632,6 +6748,16 @@
 			(type default)
 		)
 		(uuid "13f6f883-1839-40e7-9eac-6b7bf1fa0f64")
+	)
+	(wire
+		(pts
+			(xy 158.75 68.58) (xy 160.02 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14f77efc-e180-4f0e-96ec-8380e8044883")
 	)
 	(wire
 		(pts
@@ -6722,16 +6848,6 @@
 			(type default)
 		)
 		(uuid "20ad69e3-7ffd-41ce-a6f3-55728245c673")
-	)
-	(wire
-		(pts
-			(xy 148.59 63.5) (xy 209.55 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20dcad7d-fe76-4646-ac2c-504654364eb5")
 	)
 	(wire
 		(pts
@@ -6995,6 +7111,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 50.8) (xy 161.29 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "416dfed3-5ee5-4a55-b206-e0132db2df05")
+	)
+	(wire
+		(pts
 			(xy 262.89 106.68) (xy 279.4 106.68)
 		)
 		(stroke
@@ -7105,6 +7231,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 106.68) (xy 190.5 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49b46ca2-e621-4456-bb74-ecd13ced1e1a")
+	)
+	(wire
+		(pts
 			(xy 109.22 146.05) (xy 107.95 146.05)
 		)
 		(stroke
@@ -7125,16 +7261,6 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 106.68) (xy 176.53 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b71e1c0-0994-4c22-baeb-39deda78c544")
-	)
-	(wire
-		(pts
 			(xy 156.21 90.17) (xy 137.16 90.17)
 		)
 		(stroke
@@ -7152,6 +7278,16 @@
 			(type default)
 		)
 		(uuid "539f1c64-40a9-4405-812b-c18c9208b410")
+	)
+	(wire
+		(pts
+			(xy 158.75 50.8) (xy 158.75 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ae559e0-1565-4c31-8b85-719c89307fbb")
 	)
 	(wire
 		(pts
@@ -7202,16 +7338,6 @@
 			(type default)
 		)
 		(uuid "5fe09437-1594-4840-b23f-e2e2bce0b872")
-	)
-	(wire
-		(pts
-			(xy 176.53 106.68) (xy 160.02 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5fe561f3-4933-460e-8b1b-8ac9f1fadbf5")
 	)
 	(wire
 		(pts
@@ -7435,6 +7561,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 33.02) (xy 161.29 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a4a15c6-c486-460e-84d7-d57a92911287")
+	)
+	(wire
+		(pts
 			(xy 96.52 142.24) (xy 96.52 137.16)
 		)
 		(stroke
@@ -7462,6 +7598,16 @@
 			(type default)
 		)
 		(uuid "8ea62326-fc5a-4ff9-b85c-b76b8699ee58")
+	)
+	(wire
+		(pts
+			(xy 160.02 68.58) (xy 161.29 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "900d3975-f551-413d-84be-82ba5a6792bc")
 	)
 	(wire
 		(pts
@@ -7502,6 +7648,16 @@
 			(type default)
 		)
 		(uuid "93039c66-a6c8-4efe-9228-e52a9582370c")
+	)
+	(wire
+		(pts
+			(xy 158.75 53.34) (xy 158.75 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "947e7d37-3a2d-45f5-8732-9815c3d02403")
 	)
 	(wire
 		(pts
@@ -7695,6 +7851,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 114.3) (xy 185.42 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a72bb13d-6107-47af-b88a-d6a0b9cc1c3a")
+	)
+	(wire
+		(pts
 			(xy 137.16 87.63) (xy 137.16 85.09)
 		)
 		(stroke
@@ -7715,6 +7881,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 60.96) (xy 207.01 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae3a3883-33b9-461e-be5f-4c914c618c7e")
+	)
+	(wire
+		(pts
 			(xy 118.11 92.71) (xy 116.84 93.98)
 		)
 		(stroke
@@ -7722,6 +7898,16 @@
 			(type default)
 		)
 		(uuid "af66f85c-7443-4bd6-8046-3c44c11a3107")
+	)
+	(wire
+		(pts
+			(xy 185.42 114.3) (xy 190.5 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aff8d35e-3708-41a6-82a0-934c789fa664")
 	)
 	(wire
 		(pts
@@ -7742,16 +7928,6 @@
 			(type default)
 		)
 		(uuid "b3d3c802-b52e-41ab-843e-f906da0c64a2")
-	)
-	(wire
-		(pts
-			(xy 148.59 55.88) (xy 148.59 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b645f567-791a-4e5f-883f-2a9f39b9f0a2")
 	)
 	(wire
 		(pts
@@ -7935,7 +8111,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 33.02) (xy 151.13 33.02)
+			(xy 160.02 33.02) (xy 161.29 33.02)
 		)
 		(stroke
 			(width 0)
@@ -8012,16 +8188,6 @@
 			(type default)
 		)
 		(uuid "d7572f23-c69a-43ba-a838-39158dfb4827")
-	)
-	(wire
-		(pts
-			(xy 151.13 55.88) (xy 209.55 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dacb291e-c17e-4763-a12d-86cd0d92c8b4")
 	)
 	(wire
 		(pts
@@ -8145,6 +8311,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 60.96) (xy 209.55 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e987725e-6508-44e2-b19e-6c190280aaa4")
+	)
+	(wire
+		(pts
 			(xy 137.16 92.71) (xy 137.16 90.17)
 		)
 		(stroke
@@ -8182,6 +8358,16 @@
 			(type default)
 		)
 		(uuid "ebdd5c63-cc02-45b2-9232-ce9099da6508")
+	)
+	(wire
+		(pts
+			(xy 158.75 53.34) (xy 207.01 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed0987c1-154e-4ce9-be79-78a4f80e2a1c")
 	)
 	(wire
 		(pts
@@ -8245,6 +8431,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 33.02) (xy 158.75 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2bc28b8-ff97-4a28-a2e0-afada07ec7ff")
+	)
+	(wire
+		(pts
 			(xy 96.52 147.32) (xy 96.52 142.24)
 		)
 		(stroke
@@ -8283,6 +8479,26 @@
 		)
 		(uuid "fb0f658c-477d-4e52-b6d3-de221daf4d53")
 	)
+	(label "RT"
+		(at 210.82 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "111f1091-8d1b-42ca-89ba-1488cbede164")
+	)
+	(label "VC2"
+		(at 208.28 133.35 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1946572e-f3c7-46f0-b61e-101d3d65990f")
+	)
 	(label "PWGD"
 		(at 377.19 53.34 180)
 		(effects
@@ -8292,6 +8508,16 @@
 			(justify right bottom)
 		)
 		(uuid "2283bc2b-b261-41e4-a3ac-f232fbccc7ae")
+	)
+	(label "SW1"
+		(at 273.05 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2abfde8e-24c0-4187-a1f4-17deee09c239")
 	)
 	(label "PWGD"
 		(at 205.74 80.01 180)
@@ -8303,6 +8529,36 @@
 		)
 		(uuid "2efc6a5b-7b40-4a6f-8f9a-42a44de87714")
 	)
+	(label "TG1"
+		(at 261.62 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3509e124-163e-4ea6-ad2d-b83c925d2bbf")
+	)
+	(label "FB2"
+		(at 208.28 156.21 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "48388b04-ac5d-481a-901a-0ea9ae4ea596")
+	)
+	(label "SNSP1"
+		(at 261.62 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "50f7ae5a-85ea-4b6b-b567-b5890418933f")
+	)
 	(label "manual_bus"
 		(at 187.96 166.37 180)
 		(effects
@@ -8313,6 +8569,196 @@
 		)
 		(uuid "66d6fd29-938c-4767-95e2-665a2606f2ed")
 	)
+	(label "MODE2"
+		(at 203.2 60.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6ba42548-bc14-4982-87bc-133cbd094347")
+	)
+	(label "GateVcc"
+		(at 261.62 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6fa76418-e963-4846-9402-048d04dc4c58")
+	)
+	(label "SW2"
+		(at 274.32 168.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "728cb73f-0bb3-4821-a5f7-4be8935dc229")
+	)
+	(label "VinP"
+		(at 261.62 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "73416c91-d9bf-4a67-8d3b-b26dfaed4b6b")
+	)
+	(label "FB1"
+		(at 208.28 144.78 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "745af5f9-2333-483a-8430-59d2b6bee94c")
+	)
+	(label "SNSN1"
+		(at 261.62 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7895d846-cf95-454f-9600-22e0fe2779e5")
+	)
+	(label "BG1"
+		(at 261.62 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7a11e233-76a8-4a7d-9835-cd629dcf3be8")
+	)
+	(label "SNSN2"
+		(at 261.62 195.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "86d8015b-8c95-436d-8174-35e987dc9993")
+	)
+	(label "BST2"
+		(at 261.62 160.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8c0038ec-a53c-4c1a-9ffa-844aa3ad969c")
+	)
+	(label "BG2"
+		(at 261.62 151.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a0bb268c-2fcf-4a54-860d-e8b310e8e29e")
+	)
+	(label "SS"
+		(at 209.55 97.79 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a5d17043-6f11-4499-b315-665bce6df3c7")
+	)
+	(label "Vout"
+		(at 209.55 166.37 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a698b848-dd88-4e87-a307-8a21b0781ba0")
+	)
+	(label "BST1"
+		(at 261.62 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b4f9483e-0b57-4edb-86eb-14bb24495bbc")
+	)
+	(label "DG"
+		(at 261.62 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ba9f7935-523c-4ee2-87a3-a2d34db9effd")
+	)
+	(label "TG2"
+		(at 261.62 177.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bd102b97-c7cc-4a42-aeaa-f5786efc28c6")
+	)
+	(label "Vin"
+		(at 261.62 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c301cd88-2320-4ec2-aff4-581b41029532")
+	)
+	(label "SW2"
+		(at 261.62 168.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c3c32763-5616-473c-9400-aaf24ea17e77")
+	)
+	(label "IMON"
+		(at 207.01 106.68 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cf4b55e7-571b-4462-9c80-f31149e01c69")
+	)
+	(label "SW1"
+		(at 261.62 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d295808c-ab6a-4980-b4c1-169cfae3f3a0")
+	)
 	(label "manual_bus"
 		(at 146.05 127 180)
 		(effects
@@ -8322,6 +8768,46 @@
 			(justify right bottom)
 		)
 		(uuid "d451aca1-f590-4651-973c-e3b0c15c7360")
+	)
+	(label "SNSP2"
+		(at 261.62 186.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d89a138d-57c2-4a7b-98b1-976c23368595")
+	)
+	(label "MODE1"
+		(at 203.2 53.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "de429e33-6370-4c2b-b838-cde29520abf4")
+	)
+	(label "GNDPWR"
+		(at 260.35 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e4b1f7e6-f871-4604-b900-9172cf193395")
+	)
+	(label "VC1"
+		(at 208.28 119.38 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f15def84-ff26-406f-9350-4d87bab2a66f")
 	)
 	(hierarchical_label "Vin"
 		(shape input)
@@ -8413,6 +8899,73 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_Capacitor_AKL:C_0805")
+		(at 190.5 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "006e5756-b288-4eb1-8f99-c728110c1f6b")
+		(property "Reference" "C27"
+			(at 196.596 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220pF"
+			(at 194.056 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0805_2012Metric"
+			(at 191.4652 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 190.5 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0805 MLCC capacitor, Alternate KiCad Library"
+			(at 190.5 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1cf19f1b-d91f-433f-8854-2f807c4fd90a")
+		)
+		(pin "1"
+			(uuid "3c3031d7-57f8-436c-bde0-b098b4a2934b")
+		)
+		(instances
+			(project "adjustableBuck"
+				(path "/e4f7d13e-eb5c-479d-a864-754d3a1ba290"
+					(reference "C27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDS")
 		(at 200.66 88.9 270)
 		(unit 1)
@@ -8496,7 +9049,7 @@
 				)
 			)
 		)
-		(property "Value" "12k"
+		(property "Value" "1.2k"
 			(at 97.536 159.766 90)
 			(effects
 				(font
@@ -8629,7 +9182,7 @@
 				)
 			)
 		)
-		(property "Value" "5.1k"
+		(property "Value" "510R"
 			(at 97.536 144.526 90)
 			(effects
 				(font
@@ -8830,7 +9383,7 @@
 				)
 			)
 		)
-		(property "Value" "7.5k"
+		(property "Value" "750R"
 			(at 97.536 149.606 90)
 			(effects
 				(font
@@ -9022,8 +9575,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(uuid "1f84e05b-24b4-4db6-95be-9d58dbb9a44a")
 		(property "Reference" "SW5"
 			(at 129.54 105.41 0)
@@ -9175,6 +9728,79 @@
 			(project "adjustableBuck"
 				(path "/e4f7d13e-eb5c-479d-a864-754d3a1ba290"
 					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Transistor_MOSFET_AKL:IRFB4615")
+		(at 304.8 179.07 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "232cc161-620f-4972-95d1-e350bbd8e9ed")
+		(property "Reference" "Q11"
+			(at 311.15 180.3401 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IRFB4615"
+			(at 311.15 177.8001 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_Package_TO_SOT_THT_AKL:TO-220-3_Vertical_GDS"
+			(at 309.88 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/816e21d4079055e94d34a380b7a962ec/irfb4615pbf.pdf"
+			(at 304.8 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "TO-220 N-MOSFET enchancement mode transistor, 150V, 35A, 144W, Alternate KiCAD Library"
+			(at 304.8 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "dfe3ea87-7a09-4abd-ba1a-dc176eaf40a3")
+		)
+		(pin "1"
+			(uuid "00a85100-74e1-498a-8f7e-a9f19ba1dfd0")
+		)
+		(pin "2"
+			(uuid "a941945d-0a29-4fdd-a515-83d18cdaedaa")
+		)
+		(instances
+			(project "adjustableBuck"
+				(path "/e4f7d13e-eb5c-479d-a864-754d3a1ba290"
+					(reference "Q11")
 					(unit 1)
 				)
 			)
@@ -9587,6 +10213,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDPWR")
+		(at 345.44 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2de735fc-1bb0-4c26-9c09-4bfa7915f007")
+		(property "Reference" "#PWR042"
+			(at 345.44 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 345.313 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 345.44 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 345.44 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 345.44 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f0fdd375-1efe-4990-87b2-35533581eb7b")
+		)
+		(instances
+			(project "adjustableBuck"
+				(path "/e4f7d13e-eb5c-479d-a864-754d3a1ba290"
+					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDS")
 		(at 234.95 214.63 0)
 		(unit 1)
@@ -9726,8 +10418,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(uuid "2f7a48d7-a67d-4c68-bd76-4d4ebbf7dc32")
 		(property "Reference" "R27"
 			(at 116.332 81.026 90)
@@ -9793,8 +10485,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(uuid "300c6aff-f56c-46a3-bbeb-8843896e3d8a")
 		(property "Reference" "R28"
 			(at 116.332 86.106 90)
@@ -9849,6 +10541,72 @@
 			(project "adjustableBuck"
 				(path "/e4f7d13e-eb5c-479d-a864-754d3a1ba290"
 					(reference "R28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDS")
+		(at 185.42 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "30a77491-d433-487b-8044-a672a8ed4d67")
+		(property "Reference" "#PWR030"
+			(at 185.42 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDS"
+			(at 185.42 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 185.42 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDS\" , signal ground"
+			(at 185.42 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cc130106-5fa1-43c4-9a8f-cf1aa5fdb54e")
+		)
+		(instances
+			(project "adjustableBuck"
+				(path "/e4f7d13e-eb5c-479d-a864-754d3a1ba290"
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -10072,7 +10830,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "10k"
 			(at 198.12 168.656 90)
 			(effects
 				(font
@@ -10183,6 +10941,73 @@
 			(project "adjustableBuck"
 				(path "/e4f7d13e-eb5c-479d-a864-754d3a1ba290"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 345.44 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "47f1c19f-e8fe-4691-b410-df04ce0741eb")
+		(property "Reference" "H2"
+			(at 347.98 140.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 347.98 143.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad"
+			(at 345.44 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 345.44 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 345.44 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "61e058dd-b95d-414c-8d05-10e110ad0c61")
+		)
+		(instances
+			(project "adjustableBuck"
+				(path "/e4f7d13e-eb5c-479d-a864-754d3a1ba290"
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -10462,8 +11287,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(uuid "4e4647e6-482b-4817-a5ac-f1ec881c1194")
 		(property "Reference" "R32"
 			(at 116.332 106.426 90)
@@ -10518,6 +11343,79 @@
 			(project "adjustableBuck"
 				(path "/e4f7d13e-eb5c-479d-a864-754d3a1ba290"
 					(reference "R32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Transistor_MOSFET_AKL:IRFB4615")
+		(at 276.86 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4f569909-167a-4ac4-8550-d42196cf73e6")
+		(property "Reference" "Q7"
+			(at 283.21 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IRFB4615"
+			(at 283.21 80.0099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_Package_TO_SOT_THT_AKL:TO-220-3_Vertical_GDS"
+			(at 281.94 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/816e21d4079055e94d34a380b7a962ec/irfb4615pbf.pdf"
+			(at 276.86 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "TO-220 N-MOSFET enchancement mode transistor, 150V, 35A, 144W, Alternate KiCAD Library"
+			(at 276.86 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "1b0100c9-83db-4e83-b197-02236c61e542")
+		)
+		(pin "1"
+			(uuid "c803799b-d057-42fc-9d00-c54b636c1b9f")
+		)
+		(pin "2"
+			(uuid "4d9ea16d-c040-4f92-b6d5-8dd6437ebd06")
+		)
+		(instances
+			(project ""
+				(path "/e4f7d13e-eb5c-479d-a864-754d3a1ba290"
+					(reference "Q7")
 					(unit 1)
 				)
 			)
@@ -10672,7 +11570,7 @@
 				)
 			)
 		)
-		(property "Value" "4.3k"
+		(property "Value" "430R"
 			(at 97.536 139.446 90)
 			(effects
 				(font
@@ -10724,7 +11622,7 @@
 	)
 	(symbol
 		(lib_id "PCM_Capacitor_AKL:C_0805")
-		(at 294.64 92.71 0)
+		(at 276.86 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10733,7 +11631,7 @@
 		(fields_autoplaced yes)
 		(uuid "59058433-8f5d-406b-88df-b49ba72df808")
 		(property "Reference" "C11"
-			(at 298.45 91.4399 0)
+			(at 280.67 91.4399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10742,7 +11640,7 @@
 			)
 		)
 		(property "Value" "4.7uF 35v"
-			(at 298.45 93.9799 0)
+			(at 280.67 93.9799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10751,7 +11649,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0805_2012Metric"
-			(at 295.6052 96.52 0)
+			(at 277.8252 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10760,7 +11658,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 294.64 92.71 0)
+			(at 276.86 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10769,7 +11667,7 @@
 			)
 		)
 		(property "Description" "SMD 0805 MLCC capacitor, Alternate KiCad Library"
-			(at 294.64 92.71 0)
+			(at 276.86 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10925,75 +11823,6 @@
 			(project "adjustableBuck"
 				(path "/e4f7d13e-eb5c-479d-a864-754d3a1ba290"
 					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_Resistor_AKL:R_0805")
-		(at 148.59 36.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5bda2071-41ba-4aaa-9060-ffb3a3c39ad8")
-		(property "Reference" "R33"
-			(at 142.748 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 142.748 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 148.59 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 148.59 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD 0805 Chip Resistor, European Symbol, Alternate KiCad Library"
-			(at 148.59 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "de301e28-7f17-4bc2-8dd7-950332c802f4")
-		)
-		(pin "1"
-			(uuid "72e9fc42-5c96-4a52-9202-9581e64f997d")
-		)
-		(instances
-			(project "adjustableBuck"
-				(path "/e4f7d13e-eb5c-479d-a864-754d3a1ba290"
-					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -11275,8 +12104,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(uuid "6109bfc5-e8e6-4f9e-8d59-057ff7da78f7")
 		(property "Reference" "R30"
 			(at 116.332 96.266 90)
@@ -11331,78 +12160,6 @@
 			(project "adjustableBuck"
 				(path "/e4f7d13e-eb5c-479d-a864-754d3a1ba290"
 					(reference "R30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_Transistor_MOSFET_AKL:IPB048N15N5LF")
-		(at 276.86 114.3 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "62768640-7501-43a1-bd2b-1cfafd5f9c4a")
-		(property "Reference" "Q3"
-			(at 283.21 113.0299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IPB048N15N5LF"
-			(at 283.21 115.5699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_Package_TO_SOT_SMD_AKL:TO-263-2"
-			(at 281.94 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.tme.eu/Document/fc50ee780d85e9ab87e5420e12636046/IPB048N15N5LF.pdf"
-			(at 276.86 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "TO-263 N-MOSFET enchancement mode transistor, 150V, 120A, 313W, Alternate KiCAD Library"
-			(at 276.86 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "642f5694-9118-4fe6-b569-29fca04df779")
-		)
-		(pin "2"
-			(uuid "ba1f022b-076f-467f-9cf2-962d9dad767b")
-		)
-		(pin "3"
-			(uuid "e7d8cd04-0b9f-43ca-aa35-85207ee553b0")
-		)
-		(instances
-			(project "adjustableBuck"
-				(path "/e4f7d13e-eb5c-479d-a864-754d3a1ba290"
-					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -11696,6 +12453,211 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDS")
+		(at 160.02 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "68b96750-9c79-4ee0-97f5-172b3493296f")
+		(property "Reference" "#PWR038"
+			(at 160.02 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDS"
+			(at 158.75 70.612 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDS\" , signal ground"
+			(at 160.02 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "99b68268-7f6b-4997-bc49-0c73f77e6ffe")
+		)
+		(instances
+			(project "adjustableBuck"
+				(path "/e4f7d13e-eb5c-479d-a864-754d3a1ba290"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Transistor_MOSFET_AKL:IRFB4615")
+		(at 276.86 63.5 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6e56ffc9-7add-487b-a2fe-32723ccfb997")
+		(property "Reference" "Q8"
+			(at 283.21 64.7701 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IRFB4615"
+			(at 283.21 62.2301 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_Package_TO_SOT_THT_AKL:TO-220-3_Vertical_GDS"
+			(at 281.94 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/816e21d4079055e94d34a380b7a962ec/irfb4615pbf.pdf"
+			(at 276.86 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "TO-220 N-MOSFET enchancement mode transistor, 150V, 35A, 144W, Alternate KiCAD Library"
+			(at 276.86 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "6c3cadb4-fa4f-4ea4-87ad-25849094692d")
+		)
+		(pin "1"
+			(uuid "d2821790-628e-44b4-ba21-4123d5a0a842")
+		)
+		(pin "2"
+			(uuid "1516f1d5-9be1-444c-8937-300c23eb0378")
+		)
+		(instances
+			(project "adjustableBuck"
+				(path "/e4f7d13e-eb5c-479d-a864-754d3a1ba290"
+					(reference "Q8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 369.57 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "70e6ac57-d231-461d-aa03-f9f7c3bb5b69")
+		(property "Reference" "#PWR040"
+			(at 369.57 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 369.443 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 369.57 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 369.57 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 369.57 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d0d7815a-1b74-41c6-9c1c-23ae974b1199")
+		)
+		(instances
+			(project "adjustableBuck"
+				(path "/e4f7d13e-eb5c-479d-a864-754d3a1ba290"
+					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDPWR")
 		(at 279.4 154.94 0)
 		(unit 1)
@@ -11898,145 +12860,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Transistor_MOSFET_AKL:IPB048N15N5LF")
-		(at 304.8 179.07 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "758c0e43-1fae-4fb3-8753-9c461eb5ddfe")
-		(property "Reference" "Q5"
-			(at 311.15 180.3401 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IPB048N15N5LF"
-			(at 311.15 177.8001 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_Package_TO_SOT_SMD_AKL:TO-263-2"
-			(at 309.88 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.tme.eu/Document/fc50ee780d85e9ab87e5420e12636046/IPB048N15N5LF.pdf"
-			(at 304.8 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "TO-263 N-MOSFET enchancement mode transistor, 150V, 120A, 313W, Alternate KiCAD Library"
-			(at 304.8 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0e14b511-8f98-41ef-8642-99dbb62fe95a")
-		)
-		(pin "2"
-			(uuid "331afc73-2667-4496-8b58-2f36c8e30237")
-		)
-		(pin "3"
-			(uuid "1d09cd70-db27-446e-948a-abc71d398194")
-		)
-		(instances
-			(project "adjustableBuck"
-				(path "/e4f7d13e-eb5c-479d-a864-754d3a1ba290"
-					(reference "Q5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDS")
-		(at 209.55 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "76569cdd-048e-4a7d-8def-0cd6b235d89b")
-		(property "Reference" "#PWR032"
-			(at 209.55 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDS"
-			(at 208.28 57.912 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 209.55 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 209.55 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDS\" , signal ground"
-			(at 209.55 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b6c16833-6540-4677-b24c-60551767d8e4")
-		)
-		(instances
-			(project "adjustableBuck"
-				(path "/e4f7d13e-eb5c-479d-a864-754d3a1ba290"
-					(reference "#PWR032")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDS")
 		(at 187.96 140.97 0)
 		(unit 1)
@@ -12168,6 +12991,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 369.57 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7b7d2d68-d272-4476-9aab-7b5f2d6b0904")
+		(property "Reference" "H4"
+			(at 372.11 140.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 372.11 143.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad"
+			(at 369.57 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 369.57 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 369.57 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fc40a377-2ded-428f-8861-be721ec2475c")
+		)
+		(instances
+			(project "adjustableBuck"
+				(path "/e4f7d13e-eb5c-479d-a864-754d3a1ba290"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_Resistor_AKL:R_0805")
 		(at 146.05 181.61 0)
 		(unit 1)
@@ -12184,7 +13074,7 @@
 				)
 			)
 		)
-		(property "Value" "6.8k"
+		(property "Value" "680R"
 			(at 148.336 182.372 90)
 			(effects
 				(font
@@ -12379,6 +13269,75 @@
 	)
 	(symbol
 		(lib_id "PCM_Resistor_AKL:R_0805")
+		(at 158.75 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "80bda2cb-9f19-46bf-ae18-07cab95ff038")
+		(property "Reference" "R35"
+			(at 152.908 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 152.908 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 158.75 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0805 Chip Resistor, European Symbol, Alternate KiCad Library"
+			(at 158.75 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d74d2c43-d9c1-42f8-a146-a3cdea03f9b5")
+		)
+		(pin "1"
+			(uuid "36c9f74d-ae8b-488a-b0f4-0a3b32ac93e3")
+		)
+		(instances
+			(project "adjustableBuck"
+				(path "/e4f7d13e-eb5c-479d-a864-754d3a1ba290"
+					(reference "R35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Resistor_AKL:R_0805")
 		(at 100.33 152.4 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12394,7 +13353,7 @@
 				)
 			)
 		)
-		(property "Value" "9.1k"
+		(property "Value" "910R"
 			(at 97.536 154.686 90)
 			(effects
 				(font
@@ -12445,17 +13404,17 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Resistor_AKL:R_0805")
-		(at 151.13 36.83 0)
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 345.44 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "82159fe4-4705-43de-a745-a82d06184ee5")
-		(property "Reference" "R34"
-			(at 153.67 35.5599 0)
+		(uuid "83daf322-e3e1-41a3-94bb-257a984adf86")
+		(property "Reference" "H1"
+			(at 347.98 126.9999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12463,8 +13422,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
-			(at 153.67 38.0999 0)
+		(property "Value" "MountingHole_Pad"
+			(at 347.98 129.5399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12472,8 +13431,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 151.13 48.26 0)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad"
+			(at 345.44 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12482,7 +13441,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 151.13 36.83 0)
+			(at 345.44 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12490,25 +13449,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 0805 Chip Resistor, European Symbol, Alternate KiCad Library"
-			(at 151.13 36.83 0)
+		(property "Description" "Mounting Hole with connection"
+			(at 345.44 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "bac6e558-b19b-4338-813a-e51e03588e3f")
 		)
 		(pin "1"
-			(uuid "02a71366-3be9-45a0-8ccf-ccb1f51e78b2")
+			(uuid "931dded7-5506-48c1-ad75-6f5690950f33")
 		)
 		(instances
-			(project "adjustableBuck"
+			(project ""
 				(path "/e4f7d13e-eb5c-479d-a864-754d3a1ba290"
-					(reference "R34")
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -12653,7 +13609,7 @@
 	)
 	(symbol
 		(lib_id "power:VDD")
-		(at 149.86 33.02 0)
+		(at 160.02 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12662,7 +13618,7 @@
 		(fields_autoplaced yes)
 		(uuid "87976ac0-ac0f-4550-9a91-2b7c202d879c")
 		(property "Reference" "#PWR031"
-			(at 149.86 36.83 0)
+			(at 160.02 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12671,7 +13627,7 @@
 			)
 		)
 		(property "Value" "VDD"
-			(at 149.86 27.94 0)
+			(at 160.02 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12679,7 +13635,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 149.86 33.02 0)
+			(at 160.02 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12688,7 +13644,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 33.02 0)
+			(at 160.02 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12697,7 +13653,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 149.86 33.02 0)
+			(at 160.02 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12852,13 +13808,79 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Resistor_AKL:R_0805")
-		(at 113.03 99.06 270)
+		(lib_id "power:GNDPWR")
+		(at 345.44 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8a83c465-7590-42f9-b173-01b80ed92317")
+		(property "Reference" "#PWR039"
+			(at 345.44 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 345.313 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 345.44 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 345.44 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 345.44 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "910df715-56cb-45bd-b038-e65a4d82dd0e")
+		)
+		(instances
+			(project "adjustableBuck"
+				(path "/e4f7d13e-eb5c-479d-a864-754d3a1ba290"
+					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Resistor_AKL:R_0805")
+		(at 113.03 99.06 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp yes)
 		(uuid "8e869d6a-0ac7-4785-bb79-b8a1de3b4eae")
 		(property "Reference" "R31"
 			(at 116.332 101.346 90)
@@ -13255,78 +14277,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Transistor_MOSFET_AKL:IPB048N15N5LF")
-		(at 276.86 149.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9c42daf1-f1e7-44c7-aa3c-cc48ed432ca1")
-		(property "Reference" "Q4"
-			(at 283.21 148.5899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IPB048N15N5LF"
-			(at 283.21 151.1299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_Package_TO_SOT_SMD_AKL:TO-263-2"
-			(at 281.94 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.tme.eu/Document/fc50ee780d85e9ab87e5420e12636046/IPB048N15N5LF.pdf"
-			(at 276.86 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "TO-263 N-MOSFET enchancement mode transistor, 150V, 120A, 313W, Alternate KiCAD Library"
-			(at 276.86 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b654bed4-e456-48ef-9227-6d9f6894ceef")
-		)
-		(pin "2"
-			(uuid "a4453b12-9c6b-4ff3-9c5d-a441340c4c12")
-		)
-		(pin "3"
-			(uuid "8ee77b59-996f-4dbb-99ad-240cd21c63e1")
-		)
-		(instances
-			(project "adjustableBuck"
-				(path "/e4f7d13e-eb5c-479d-a864-754d3a1ba290"
-					(reference "Q4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 293.37 228.6 0)
 		(unit 1)
@@ -13466,8 +14416,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "a0648f96-d55f-48e0-978e-ef47310311c1")
 		(property "Reference" "#PWR027"
@@ -13528,7 +14478,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_DIP_x02")
-		(at 151.13 48.26 90)
+		(at 161.29 43.18 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13537,7 +14487,7 @@
 		(fields_autoplaced yes)
 		(uuid "a0a42a5d-f317-4daa-bdef-47888f2f1c7d")
 		(property "Reference" "SW2"
-			(at 154.94 46.9899 90)
+			(at 165.1 41.9099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13546,7 +14496,7 @@
 			)
 		)
 		(property "Value" "DIP2"
-			(at 154.94 49.5299 90)
+			(at 165.1 44.4499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13555,7 +14505,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_SMD:2DIPCFS"
-			(at 151.13 48.26 0)
+			(at 161.29 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13564,7 +14514,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 151.13 48.26 0)
+			(at 161.29 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13573,7 +14523,7 @@
 			)
 		)
 		(property "Description" "2x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
-			(at 151.13 48.26 0)
+			(at 161.29 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13871,6 +14821,73 @@
 			(project "adjustableBuck"
 				(path "/e4f7d13e-eb5c-479d-a864-754d3a1ba290"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 369.57 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a4d2b346-4de3-4198-8ad0-ec18d440c3ec")
+		(property "Reference" "H3"
+			(at 372.11 126.9999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 372.11 129.5399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad"
+			(at 369.57 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 369.57 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 369.57 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8f65750a-128b-474c-b09d-dd9ec3a642ea")
+		)
+		(instances
+			(project "adjustableBuck"
+				(path "/e4f7d13e-eb5c-479d-a864-754d3a1ba290"
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -14233,7 +15250,7 @@
 				)
 			)
 		)
-		(property "Value" "15k"
+		(property "Value" "1.5k"
 			(at 153.416 183.134 90)
 			(effects
 				(font
@@ -14316,7 +15333,6 @@
 					(size 1.27 1.27)
 					(italic yes)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "LT8210EFE"
@@ -14762,85 +15778,13 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Transistor_MOSFET_AKL:IPB048N15N5LF")
-		(at 276.86 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b7d06b5b-9daf-4702-b699-de8a73cecc5a")
-		(property "Reference" "Q2"
-			(at 283.21 77.4699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IPB048N15N5LF"
-			(at 283.21 80.0099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_Package_TO_SOT_SMD_AKL:TO-263-2"
-			(at 281.94 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.tme.eu/Document/fc50ee780d85e9ab87e5420e12636046/IPB048N15N5LF.pdf"
-			(at 276.86 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "TO-263 N-MOSFET enchancement mode transistor, 150V, 120A, 313W, Alternate KiCAD Library"
-			(at 276.86 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "814f81e6-2419-4611-9a3c-d333b8cd5f6e")
-		)
-		(pin "2"
-			(uuid "293e3b3c-0129-4e42-b82b-810ef56f0315")
-		)
-		(pin "3"
-			(uuid "adcb3e12-ecf4-4a1c-b315-376bd0953f8e")
-		)
-		(instances
-			(project "adjustableBuck"
-				(path "/e4f7d13e-eb5c-479d-a864-754d3a1ba290"
-					(reference "Q2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDS")
 		(at 156.21 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "bbe1ae59-28c9-4454-b686-576a7001e698")
 		(property "Reference" "#PWR028"
@@ -14900,74 +15844,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDS")
-		(at 209.55 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bbe96770-567b-4a37-b5e1-daf377c8b7ec")
-		(property "Reference" "#PWR030"
-			(at 209.55 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDS"
-			(at 208.28 65.532 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 209.55 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 209.55 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDS\" , signal ground"
-			(at 209.55 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d39d2d5c-2a19-431e-8f36-e0c61d1e72ea")
-		)
-		(instances
-			(project "adjustableBuck"
-				(path "/e4f7d13e-eb5c-479d-a864-754d3a1ba290"
-					(reference "#PWR030")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDPWR")
-		(at 294.64 96.52 0)
+		(at 276.86 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14976,7 +15854,7 @@
 		(fields_autoplaced yes)
 		(uuid "bd1da1ff-4d6d-4529-8f61-4aa43d3443e7")
 		(property "Reference" "#PWR07"
-			(at 294.64 101.6 0)
+			(at 276.86 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14985,7 +15863,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 294.513 100.33 0)
+			(at 276.733 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14993,7 +15871,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 294.64 97.79 0)
+			(at 276.86 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15002,7 +15880,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 294.64 97.79 0)
+			(at 276.86 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15011,7 +15889,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 294.64 96.52 0)
+			(at 276.86 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15102,17 +15980,17 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Transistor_MOSFET_AKL:IPB048N15N5LF")
-		(at 276.86 63.5 0)
-		(mirror x)
+		(lib_id "PCM_Transistor_MOSFET_AKL:IRFB4615")
+		(at 276.86 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "c4104d16-e166-46d1-b7c5-e779070359ec")
-		(property "Reference" "Q1"
-			(at 283.21 64.7701 0)
+		(fields_autoplaced yes)
+		(uuid "c04e9cd0-ce8d-43ee-b453-22adc4510d16")
+		(property "Reference" "Q10"
+			(at 283.21 148.5899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15120,8 +15998,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "IPB048N15N5LF"
-			(at 283.21 62.2301 0)
+		(property "Value" "IRFB4615"
+			(at 283.21 151.1299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15129,8 +16007,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Package_TO_SOT_SMD_AKL:TO-263-2"
-			(at 281.94 66.04 0)
+		(property "Footprint" "PCM_Package_TO_SOT_THT_AKL:TO-220-3_Vertical_GDS"
+			(at 281.94 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15138,8 +16016,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.tme.eu/Document/fc50ee780d85e9ab87e5420e12636046/IPB048N15N5LF.pdf"
-			(at 276.86 63.5 0)
+		(property "Datasheet" "https://www.tme.eu/Document/816e21d4079055e94d34a380b7a962ec/irfb4615pbf.pdf"
+			(at 276.86 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15147,28 +16025,28 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "TO-263 N-MOSFET enchancement mode transistor, 150V, 120A, 313W, Alternate KiCAD Library"
-			(at 276.86 63.5 0)
+		(property "Description" "TO-220 N-MOSFET enchancement mode transistor, 150V, 35A, 144W, Alternate KiCAD Library"
+			(at 276.86 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "d9627222-88ad-4f85-b9ba-660c6b33c739")
-		)
-		(pin "2"
-			(uuid "50f9b0ad-e7d2-465c-b304-491fb77290f5")
 		)
 		(pin "3"
-			(uuid "dd2cede1-3dfd-480d-88cc-f447b068c8f8")
+			(uuid "11463848-c21a-4a05-8ca5-86de28ce9132")
+		)
+		(pin "1"
+			(uuid "7aac9202-81d0-4af9-bbe1-54a921575618")
+		)
+		(pin "2"
+			(uuid "4cd45887-6d15-4fb1-940a-0a0d1c525281")
 		)
 		(instances
-			(project ""
+			(project "adjustableBuck"
 				(path "/e4f7d13e-eb5c-479d-a864-754d3a1ba290"
-					(reference "Q1")
+					(reference "Q10")
 					(unit 1)
 				)
 			)
@@ -15585,8 +16463,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(uuid "d0412ff1-9fbb-41e1-888e-684836bc0133")
 		(property "Reference" "R29"
 			(at 116.332 91.186 90)
@@ -15641,6 +16519,73 @@
 			(project "adjustableBuck"
 				(path "/e4f7d13e-eb5c-479d-a864-754d3a1ba290"
 					(reference "R29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Resistor_AKL:R_0805")
+		(at 181.61 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d2cbf9e6-2e78-4bf6-a2e5-271df612a8c2")
+		(property "Reference" "R33"
+			(at 183.896 107.188 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33k"
+			(at 183.896 113.284 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 181.61 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 181.61 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0805 Chip Resistor, European Symbol, Alternate KiCad Library"
+			(at 181.61 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ed147587-8eb0-4ad4-99dc-539b98b3d656")
+		)
+		(pin "1"
+			(uuid "673821f1-e4ab-4259-ad3e-ad5dd442fbff")
+		)
+		(instances
+			(project "adjustableBuck"
+				(path "/e4f7d13e-eb5c-479d-a864-754d3a1ba290"
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -15927,6 +16872,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDPWR")
+		(at 369.57 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d5bbfe87-5dd4-404a-b3b9-60463a58b5de")
+		(property "Reference" "#PWR041"
+			(at 369.57 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 369.443 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 369.57 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 369.57 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 369.57 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fd65caeb-0a76-47a2-9118-ea7fe0b7b10e")
+		)
+		(instances
+			(project "adjustableBuck"
+				(path "/e4f7d13e-eb5c-479d-a864-754d3a1ba290"
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 318.77 133.35 0)
 		(unit 1)
@@ -16058,6 +17069,76 @@
 			(project "adjustableBuck"
 				(path "/e4f7d13e-eb5c-479d-a864-754d3a1ba290"
 					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Resistor_AKL:R_0805")
+		(at 161.29 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d8906caf-2eb3-4808-a33a-3110d13c1bff")
+		(property "Reference" "R36"
+			(at 163.83 63.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 163.83 66.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 161.29 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0805 Chip Resistor, European Symbol, Alternate KiCad Library"
+			(at 161.29 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "49232e10-bda6-40eb-b11b-30ab5661b112")
+		)
+		(pin "1"
+			(uuid "6706d5fb-539b-4499-9ec5-5613896ce6b1")
+		)
+		(instances
+			(project "adjustableBuck"
+				(path "/e4f7d13e-eb5c-479d-a864-754d3a1ba290"
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -16578,8 +17659,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(uuid "ebbbd3b5-0201-412e-8814-a3dc25e817bb")
 		(property "Reference" "C24"
 			(at 150.114 93.98 90)
@@ -16857,7 +17938,7 @@
 				)
 			)
 		)
-		(property "Value" "24k"
+		(property "Value" "2.4k"
 			(at 97.536 164.846 90)
 			(effects
 				(font
@@ -16975,17 +18056,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 317.5 199.39 0)
+		(lib_id "PCM_Transistor_MOSFET_AKL:IRFB4615")
+		(at 276.86 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "fb43dd4a-2c55-4a7c-8840-acc64ed73cb7")
-		(property "Reference" "TP20"
-			(at 320.04 194.8179 0)
+		(uuid "f9fb1381-57d8-4d47-8f60-c682063b4716")
+		(property "Reference" "Q9"
+			(at 283.21 113.0299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16993,8 +18074,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 320.04 197.3579 0)
+		(property "Value" "IRFB4615"
+			(at 283.21 115.5699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17002,8 +18083,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Pin:Pin_D1.3mm_L11.0mm"
-			(at 322.58 199.39 0)
+		(property "Footprint" "PCM_Package_TO_SOT_THT_AKL:TO-220-3_Vertical_GDS"
+			(at 281.94 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17011,8 +18092,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 322.58 199.39 0)
+		(property "Datasheet" "https://www.tme.eu/Document/816e21d4079055e94d34a380b7a962ec/irfb4615pbf.pdf"
+			(at 276.86 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17020,22 +18101,28 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
-			(at 317.5 199.39 0)
+		(property "Description" "TO-220 N-MOSFET enchancement mode transistor, 150V, 35A, 144W, Alternate KiCAD Library"
+			(at 276.86 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(pin "3"
+			(uuid "407f5328-ca1e-46af-aa50-39cc930c2b58")
 		)
 		(pin "1"
-			(uuid "546113cd-61a2-40d3-b9ff-8f07ad12c1dd")
+			(uuid "bc938e1d-e013-474c-81aa-b68351348e02")
+		)
+		(pin "2"
+			(uuid "14837303-d314-42de-83ae-31d352dfa702")
 		)
 		(instances
 			(project "adjustableBuck"
 				(path "/e4f7d13e-eb5c-479d-a864-754d3a1ba290"
-					(reference "TP20")
+					(reference "Q9")
 					(unit 1)
 				)
 			)
